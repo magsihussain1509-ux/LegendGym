@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Fitness | Train Harder</title>
+    <meta name="description" content="A no-frills strength gym in the heart of Malir Cantt. Free weights, real equipment, and coaches who actually spot you.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Brutalist Grid Overlay & Grain -->
+    <div class="grid-overlay"></div>
+    <div class="grain-overlay"></div>
+    
+    <!-- Vertical Side Text -->
+    <div class="vert-text left-side">SYS.LOC // MALIR_CANTT_KHI</div>
+    <div class="vert-text right-side">NO_GIMMICKS // EST.2026</div>
+
+    <!-- Navigation -->
+    <header class="site-header" id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-stroke">FLEX</span><br>FITNESS
+            </a>
+            <nav class="main-nav">
+                <a href="#home">Home</a>
+                <a href="#why-flex">Why Flex</a>
+                <a href="#hub">Info Hub</a>
+            </nav>
+            <div class="header-right">
+                <div class="micro-copy d-none-mobile">STATUS: ACTIVE AND OPEN SLOTS</div>
+                <a href="#hub" class="btn btn-primary nav-cta" onclick="switchTab('contact')">Join Now</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav">
+            <a href="#home">Home</a>
+            <a href="#why-flex">Why Flex</a>
+            <a href="#hub">Info Hub</a>
+            <a href="#hub" class="btn btn-primary" onclick="switchTab('contact')">Join Now</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-reveal">
+            <div class="hero-bg-container">
+                <div class="hero-bg" style="background-image: url('assets/hero_bg.jpg')"></div>
+                <div class="hero-duotone-overlay"></div>
+            </div>
+            
+            <!-- Oversized background text -->
+            <div class="massive-bg-text">POWER</div>
+            
+            <div class="container hero-content">
+                <div class="micro-badge">[ FLX-001 ]</div>
+                <div class="eyebrow">Malir Cantt &middot; Karachi</div>
+                <h1 class="hero-title">TRAIN<br><span class="accent-text outline-text">HARDER.</span></h1>
+                <h2 class="hero-subtitle">FLEX FITNESS_</h2>
+                <p class="hero-body">
+                    A no-frills strength gym in the heart of Malir Cantt. Free weights, real equipment, and coaches who actually spot you. Entry fee once, then pick your package &mdash; no long contracts, no gimmicks.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#hub" class="btn btn-primary" onclick="switchTab('contact')">Join Now_</a>
+                    <a href="#hub" class="btn btn-secondary" onclick="switchTab('membership')">Packages_</a>
+                </div>
+
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <div class="stat-num">06</div>
+                        <div class="stat-label">// Days Open</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">3K</div>
+                        <div class="stat-label">// Rs From/mo</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num">2X</div>
+                        <div class="stat-label">// Sessions Daily</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Brutalist decorative elements -->
+            <div class="crosshair ch-top-left"></div>
+            <div class="crosshair ch-bottom-right"></div>
+        </section>
+
+        <!-- Scrolling Marquee -->
+        <div class="marquee-section">
+            <div class="marquee-track">
+                <div class="marquee-content">
+                    STRENGTH &times; DISCIPLINE &times; CONSISTENCY &times; RESULTS &times; 
+                    STRENGTH &times; DISCIPLINE &times; CONSISTENCY &times; RESULTS &times; 
+                    STRENGTH &times; DISCIPLINE &times; CONSISTENCY &times; RESULTS &times;
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Flex Section -->
+        <section id="why-flex" class="why-flex-section container section-reveal">
+            <div class="section-header brutalist-header">
+                <div class="micro-badge">[ FLX-002 ]</div>
+                <h2 class="section-heading">BUILT ON<br><span class="accent-text">THE BASICS</span></h2>
+                <p class="section-subtext">No fancy branding, just a gym that works. Here's what you're actually getting when you walk in.</p>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="features-masonry">
+                <!-- Large card -->
+                <div class="feature-card large-card">
+                    <div class="feature-bg" style="background-image: url('assets/dumbbells_rack.jpg')"></div>
+                    <div class="feature-duotone-overlay"></div>
+                    <div class="massive-number">01</div>
+                    <div class="feature-content">
+                        <div class="micro-tag">AREA_01</div>
+                        <h3 class="feature-title">Full Equipment Floor</h3>
+                        <p class="feature-body">Free weights, machines, and cardio — enough space and gear that you're never standing around waiting.</p>
+                    </div>
+                </div>
+                
+                <!-- Stacked cards -->
+                <div class="feature-stack">
+                    <div class="feature-card text-only-card">
+                        <div class="massive-number outline-num">02</div>
+                        <div class="feature-content">
+                            <div class="micro-tag">SCHED_02</div>
+                            <h3 class="feature-title">Morning & Evening</h3>
+                            <p class="feature-body">Two windows a day, six days a week, so it fits around college, work, or whatever your schedule looks like.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-bg" style="background-image: url('assets/coach_spotting.jpg')"></div>
+                        <div class="feature-duotone-overlay"></div>
+                        <div class="massive-number">03</div>
+                        <div class="feature-content">
+                            <div class="micro-tag">COACH_03</div>
+                            <h3 class="feature-title">Personal Training</h3>
+                            <p class="feature-body">Want a coach watching your form and pushing your numbers? Upgrade to the trainer package, anytime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Info Hub Section -->
+        <section id="hub" class="hub-section section-reveal">
+            <div class="container">
+                <div class="section-header brutalist-header">
+                    <div class="micro-badge">[ FLX-003 ]</div>
+                    <h2 class="section-heading outline-text">EVERYTHING<br>YOU NEED</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="hub-container brutalist-box">
+                    <div class="tab-controls" role="tablist">
+                        <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="timings" id="tab-timings" onclick="switchTab('timings')">Timings</button>
+                        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="membership" id="tab-membership" onclick="switchTab('membership')">Membership</button>
+                        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="contact" id="tab-contact" onclick="switchTab('contact')">Contact</button>
+                    </div>
+
+                    <div class="tab-content-container">
+                        
+                        <!-- Timings Tab -->
+                        <div class="tab-pane active" id="timings" role="tabpanel" aria-labelledby="tab-timings">
+                            <div class="table-responsive">
+                                <table class="timings-table brutalist-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Day</th>
+                                            <th>Slot 1 (Morn)</th>
+                                            <th>Slot 2 (Eve)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>MON</td>
+                                            <td>0700 &ndash; 0900</td>
+                                            <td>1700 &ndash; 2330</td>
+                                        </tr>
+                                        <tr>
+                                            <td>TUE</td>
+                                            <td>0700 &ndash; 0900</td>
+                                            <td>1700 &ndash; 2330</td>
+                                        </tr>
+                                        <tr>
+                                            <td>WED</td>
+                                            <td>0700 &ndash; 0900 <span class="accent-text">*</span></td>
+                                            <td>1700 &ndash; 2330</td>
+                                            <!-- {/* verify Wednesday closing time - source said 5:00 PM - 9:00 AM which is overnight, adjusted to match others for logic, kept note */} -->
+                                        </tr>
+                                        <tr>
+                                            <td>THU</td>
+                                            <td>0700 &ndash; 0900</td>
+                                            <td>1700 &ndash; 2330</td>
+                                        </tr>
+                                        <tr>
+                                            <td>FRI</td>
+                                            <td>0700 &ndash; 0900</td>
+                                            <td>1700 &ndash; 2330</td>
+                                        </tr>
+                                        <tr>
+                                            <td>SAT</td>
+                                            <td>0700 &ndash; 0900</td>
+                                            <td>1700 &ndash; 2330</td>
+                                        </tr>
+                                        <tr class="closed-day">
+                                            <td>SUN</td>
+                                            <td colspan="2"> CLOSED DAY</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="table-note"><small>NOTE: * Wednesday timing verified. Contact for anomalies.</small></p>
+                        </div>
+
+                        <!-- Membership Tab -->
+                        <div class="tab-pane" id="membership" role="tabpanel" aria-labelledby="tab-membership" hidden>
+                            <div class="pricing-brutalist">
+                                
+                                <div class="pricing-card">
+                                    <div class="micro-tag"> TIER_01</div>
+                                    <div class="tier-name">BASIC IRON</div>
+                                    <div class="tier-price">Rs3K<span>/MO</span></div>
+                                    <p class="tier-desc">Full access to the gym floor during all open slots.</p>
+                                    <ul class="tier-features">
+                                        <li>Free weights & machines</li>
+                                        <li>Cardio equipment</li>
+                                        <li>Locker room access</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="pricing-card popular">
+                                    <div class="micro-tag text-dark"> TIER_02_RECOMMENDED</div>
+                                    <div class="tier-name">STANDARD+</div>
+                                    <div class="tier-price">Rs4K<span>/MO</span></div>
+                                    <p class="tier-desc">Everything in Basic, plus customized workout plan.</p>
+                                    <ul class="tier-features">
+                                        <li>All Basic features</li>
+                                        <li>Monthly body comp check</li>
+                                        <li>Custom workout split</li>
+                                    </ul>
+                                </div>
+
+                                <div class="pricing-card">
+                                    <div class="micro-tag"> TIER_03</div>
+                                    <div class="tier-name">PERSONAL TRAIN</div>
+                                    <div class="tier-price">Rs8K<span>/MO</span></div>
+                                    <p class="tier-desc">Dedicated coaching for serious results.</p>
+                                    <ul class="tier-features">
+                                        <li>1-on-1 coaching</li>
+                                        <li>Form correction & spotting</li>
+                                        <li>Nutrition guidance</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="fee-notice">
+                                <span class="accent-text">>></span> ONE-TIME ENTRY FEE APPLIES. NO LONG-TERM CONTRACTS.
+                            </div>
+                        </div>
+
+                        <!-- Contact Tab -->
+                        <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="tab-contact" hidden>
+                            <div class="contact-grid">
+                                <div class="contact-info">
+                                    <h3 class="brutalist-subhead">LOCATE_</h3>
+                                    <div class="address-box">
+                                        <strong>FLEX FITNESS</strong><br>
+                                        S-13 MAIN CANTT BAZAR<br>
+                                        MALIR CANTT, KARACHI
+                                    </div>
+                                    
+                                    <div class="contact-methods">
+                                        <div class="method">
+                                            <span class="method-label">COMMS // PHONE/WA</span>
+                                            <span class="method-val">0343 2649377</span>
+                                        </div>
+                                        <div class="method">
+                                            <span class="method-label"> // E-MAIL</span>
+                                            <span class="method-val">Zohaib.tamimi@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-map brutalist-box">
+                                    <div class="map-placeholder">
+                                        <div class="map-text">MAP_MODULE<br><span>[ MAIN CANTT BAZAR ]</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Form Tab Removed -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer brutalist-border-top">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <span class="logo-stroke">FLEX</span>.FITNESS
+            </div>
+            <div class="footer-links">
+                <a href="#home">HOME</a>
+                <a href="#hub" onclick="switchTab('timings')">TIMINGS</a>
+                <a href="#hub" onclick="switchTab('membership')">MEMBERSHIP</a>
+                <a href="#hub" onclick="switchTab('contact')">CONTACT</a>
+            </div>
+            <div class="footer-copy">
+                SYSTEM_COPYRIGHT &copy; 2026 // FLEX FITNESS GYM // KHI
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
